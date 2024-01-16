@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;700;800&display=swap");
+
+.nav1 {
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+    font-family: Mulish;
+    gap: 20px;
+
+}
+
+.nav2 {
+    display: flex;
+    align-items: center;
+    gap: 44px;
+    font-family: Mulish;
+
+}
+
+.travel {
+    color: #FF5400;
+    font-family: Mulish;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1250px;
+    padding: 52px 127px 52px 127px;
+
+}
+
+.Exp {
+    position: absolute;
+    align-items: center;
+    margin-top: -400px;
+    margin-left: 480px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.Tex {
+    position: absolute;
+    margin-top: -295px;
+    margin-left: 420px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.input-one {
+    margin-top: -10px;
+    margin-left: -100px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+}
+
+.input-two {
+    margin-top: -10px;
+    margin-left: 110px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+}
+
+.input-three {
+    margin-top: -10px;
+    margin-left: 320px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+}
+
+.btn {
+    margin-top: -10px;
+    margin-left: 530px;
+    background-color: #FF5400;
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    position: absolute;
+}
+
+.header {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    text-align: center;
+    /* opacity: 0.6; */
+    background-image: url('image/Groupx.png');
+    color: #131318, #13131800;
+    background-size: cover;
+    height: 500px;
+    width: 1250px;
+    margin-left: 130px;
+    border-radius: 16px;
+}
+.above {
+    margin-top: -160px;
+    margin-left: 450px;
+}
+
+
+
+/* responsive media queries */
+/* mobile devices */
+/* @media screen and (max-width: 600px) {
+  
+    header{
+        padding: 20px;
+
+    }
+    nav,
+    .teams-container{
+        flex-direction: column;
+    }
+    .teams-img-container{
+        grid-template-columns: 1fr;
+    }
+    .teams-content{
+        padding-right: 20px;
+        padding-left: 20px;
+        }
+} */
